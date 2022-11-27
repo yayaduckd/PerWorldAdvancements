@@ -1,0 +1,5 @@
+name: PerWorldAdvancements
+version: '${project.version}'
+main: com.yayaduck.paper.perworldadvancements.PerWorldAdvancements
+api-version: 1.19
+authors: [ YayaDuck ]
