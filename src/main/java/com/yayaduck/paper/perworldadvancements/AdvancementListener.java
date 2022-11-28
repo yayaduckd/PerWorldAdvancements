@@ -22,7 +22,7 @@ public class AdvancementListener implements Listener {
      */
     @EventHandler(priority = org.bukkit.event.EventPriority.HIGH)
     void onAdvancement(PlayerAdvancementCriterionGrantEvent event) {
-        if (!event.getPlayer().getGameMode().equals(org.bukkit.GameMode.SURVIVAL)) {
+        if (event.getPlayer().getWorld().equals(Bukkit.getWorld("Creative"))) {
             event.setCancelled(true);
             if (plugin.getConfig().getBoolean("enableDebug")) {
                 Bukkit.getLogger().info(
