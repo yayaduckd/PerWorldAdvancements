@@ -1,7 +1,7 @@
 # If set to true, the plugin will log information about every cancelled advancement to the console.
 enableDebug: false
 
-# The worlds where achievements will be disabled.
+# The worlds where advancements will be disabled.
 worlds:
   - "exampleworld1"
   - "exampleworld2"
