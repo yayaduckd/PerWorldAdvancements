@@ -1,1 +1,8 @@
+# If set to true, the plugin will log information about every cancelled advancement to the console.
 enableDebug: false
+
+# The worlds where achievements will be disabled.
+worlds:
+  - "exampleworld1"
+  - "exampleworld2"
+  - "exampleworld2_nether"
